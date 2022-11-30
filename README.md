@@ -6,6 +6,16 @@
 
 ### We had received numerous requests and compliments for this website, so we decided to reveal the source code and share how the website was created. So now we have the Source Code.
 
+### How to run the website on your device?
++ ### Install the LTS version of Node.js from this link: https://nodejs.org/en/download/ according to your operating system
++ ### Download the zip file of this repository
++ ### Unzip this file and open your terminal (eg: command prompt in windows) in the directory of this website
++ ### Run the following commands:
+    + ### npm install
+    + ### npm start
++ ### A new browser window will pop up with your newly created React App. 
++ ### If not, open your browser and type localhost:3000 in the address bar and voila! You succesfully ran our official website for the recruitment of FE Reps 
+
 ### We used the following technology stack: 
 + ### ReactJS
 + ### Material UI
