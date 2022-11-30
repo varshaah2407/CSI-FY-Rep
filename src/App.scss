@@ -1,0 +1,28 @@
+.Box {
+  background-color: #f0fbff;
+  width: 50vw;
+  min-height: 80vh;
+  max-height: 100vh;
+  border-radius: 7.5px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: none;
+  box-shadow: 0px 0px 80px 10px rgba(0, 0, 0, 0.38);
+  z-index: 1;
+}
+
+@media (max-width: 1100px) {
+  .Box {
+    width: 80vw;
+  }
+}
+@media (max-width: 700px) {
+  .Box {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.z {
+  z-index: 69 !important;
+}

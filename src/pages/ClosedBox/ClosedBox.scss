@@ -1,0 +1,37 @@
+.closed-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+}
+
+.closed-svg {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.clossed-svg {
+  width: 55%;
+}
+
+.closed-div {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+
+  h3 {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #002a3a;
+  }
+}

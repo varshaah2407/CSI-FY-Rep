@@ -1,0 +1,25 @@
+{
+  "short_name": "CSI Recruitment",
+  "name": "First Year Reprentatives 2022-2023",
+  "icons": [
+    {
+      "src": "CSI-Logo.svg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "CSI-Logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192"
+    },
+    {
+      "src": "CSI-Logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

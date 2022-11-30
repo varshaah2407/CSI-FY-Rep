@@ -1,0 +1,105 @@
+.buttonDiv2 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.8vw;
+}
+
+.cover-letter{
+  background:transparent !important;
+  border: 2px solid #156081 !important;
+  box-shadow: 0 0px 0px 0 rgba(110, 207, 246, 25) !important;
+  border-radius: 8px !important;
+  padding: 5px 25px !important;
+  color: #156081 !important ;
+  font-weight: 600 !important;
+
+  &:hover {
+    background:#81b8cf53 !important;
+  }
+}
+
+.buttonDivBig {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .field {
+    gap: 20px !important;
+    .inp {
+      width: 100%;
+    }
+
+    .branchBox {
+      margin-top: 5px;
+    }
+
+    .cover-letter {
+      padding: 5px 50px !important;
+      font-size: 1.1rem !important;
+    }
+  }
+}
+@media (max-width: 600px){
+  .field {
+    flex-direction: column;
+    gap: 10px !important;
+    margin-top: 10px;
+
+    .inp {
+      width: 100%;
+    }
+  }
+
+  .buttonDivBig {
+    margin-top: 2.5vh !important;
+    a {
+      width: 85%;
+    }
+  }
+  
+  .cover-letter {
+    padding: 7.5px 30px !important;
+    font-size: 1rem !important;
+    width: 100%;
+  }
+
+  .buttonDiv2 {
+    gap: 3vw;
+  }
+
+  .buttonDivBig{
+    flex-direction: column;
+    gap: 15vw;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20% !important;
+  }
+}
+
+// @media (max-width: 600px) {
+//   .field {
+//     flex-direction: column;
+//     gap: 10px;
+//     margin-top: 10px;
+
+//     .inp {
+//       width: 100%;
+//     }
+//   }
+
+//   .buttonDivBig {
+//     flex-direction: column;
+//     justify-content: center;
+//   }
+
+//   .save-n-next {
+//     padding: 2.5px 40px !important;
+//     font-size: 1.1rem !important;
+//   }
+// }
