@@ -4,8 +4,8 @@
   gap: 0.8vw;
 }
 
-.cover-letter{
-  background:transparent !important;
+.cover-letter {
+  background: transparent !important;
   border: 2px solid #156081 !important;
   box-shadow: 0 0px 0px 0 rgba(110, 207, 246, 25) !important;
   border-radius: 8px !important;
@@ -14,7 +14,7 @@
   font-weight: 600 !important;
 
   &:hover {
-    background:#81b8cf53 !important;
+    background: #81b8cf53 !important;
   }
 }
 
@@ -45,7 +45,7 @@
     }
   }
 }
-@media (max-width: 600px){
+@media (max-width: 600px) {
   .field {
     flex-direction: column;
     gap: 10px !important;
@@ -62,7 +62,7 @@
       width: 85%;
     }
   }
-  
+
   .cover-letter {
     padding: 7.5px 30px !important;
     font-size: 1rem !important;
@@ -73,7 +73,7 @@
     gap: 3vw;
   }
 
-  .buttonDivBig{
+  .buttonDivBig {
     flex-direction: column;
     gap: 15vw;
     align-items: center;

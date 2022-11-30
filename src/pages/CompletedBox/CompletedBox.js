@@ -1,6 +1,6 @@
 import * as React from "react";
 import "./CompletedBox.scss";
-import "./Confetti.js"
+import "./Confetti.js";
 import Button from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
 import Dialog from "@mui/material/Dialog";
@@ -9,7 +9,7 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogActions from "@mui/material/DialogActions";
 import IconButton from "@mui/material/IconButton";
 import Confetti from "./Confetti.js";
-import Completed from "../../assets/hoorah.svg"
+import Completed from "../../assets/hoorah.svg";
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   "& .MuiDialogContent-root": {
@@ -49,7 +49,7 @@ const BootstrapDialogTitle = (props) => {
 
 export default function WelcomeBox() {
   const [open, setOpen] = React.useState(true);
-  
+
   const [Btn, setBtn] = React.useState(false);
 
   const handleClose = () => {
@@ -59,7 +59,7 @@ export default function WelcomeBox() {
 
   return (
     <div>
-      {Btn && <Confetti/>}
+      {Btn && <Confetti />}
       <BootstrapDialog
         onClose={handleClose}
         aria-labelledby="customized-dialog-title"
@@ -86,15 +86,15 @@ export default function WelcomeBox() {
           </div>
         </DialogContent>
         <DialogActions className="completed-div">
-            <h3>You did it!</h3>
-            <Button
-              style={{ width: "100%" }}
-              onClick={()=>setBtn(!Btn)}
-              variant="contained"
-              className="button-welcome"
-            >
-              Hurray
-            </Button>
+          <h3>You did it!</h3>
+          <Button
+            style={{ width: "100%" }}
+            onClick={() => setBtn(!Btn)}
+            variant="contained"
+            className="button-welcome"
+          >
+            Hurray
+          </Button>
         </DialogActions>
       </BootstrapDialog>
     </div>

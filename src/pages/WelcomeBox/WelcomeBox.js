@@ -57,7 +57,7 @@ export default function WelcomeBox() {
     <div>
       <BootstrapDialog
         onClose={handleClose}
-        className = "welcome-"
+        className="welcome-"
         aria-labelledby="customized-dialog-title"
         open={open}
         sx={{
@@ -80,15 +80,15 @@ export default function WelcomeBox() {
           <img className="hello-svg" src={Welcome} />
         </DialogContent>
         <DialogActions className="button-div">
-            <h3>"Participation is what Matters"</h3>
-            <Button
-              style={{ width: "100%" }}
-              variant="contained"
-              onClick={handleClose}
-              className="button-welcome"
-            >
-              Lets Go
-            </Button>
+          <h3>"Participation is what Matters"</h3>
+          <Button
+            style={{ width: "100%" }}
+            variant="contained"
+            onClick={handleClose}
+            className="button-welcome"
+          >
+            Lets Go
+          </Button>
         </DialogActions>
       </BootstrapDialog>
     </div>

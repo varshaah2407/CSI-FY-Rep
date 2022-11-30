@@ -277,7 +277,12 @@ export default function AboutForm(props) {
               className="buttonDiv"
               sx={{ float: "right", mt: 3, width: "100%" }}
             >
-              <Button variant="contained" className="save-n-next" id="empty" type="submit">
+              <Button
+                variant="contained"
+                className="save-n-next"
+                id="empty"
+                type="submit"
+              >
                 Next
               </Button>
               {/* <div className="empty"></div> */}

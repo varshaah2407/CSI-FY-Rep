@@ -6,7 +6,7 @@ import DialogTitle from "@mui/material/DialogTitle";
 import DialogContent from "@mui/material/DialogContent";
 import DialogActions from "@mui/material/DialogActions";
 import IconButton from "@mui/material/IconButton";
-import Closed from "../../assets/clossed.svg"
+import Closed from "../../assets/clossed.svg";
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   "& .MuiDialogContent-root": {
@@ -78,7 +78,7 @@ export default function WelcomeBox() {
           </div>
         </DialogContent>
         <DialogActions className="closed-div">
-            <h3>Responses are not being accepted now :)</h3>
+          <h3>Responses are not being accepted now :)</h3>
         </DialogActions>
       </BootstrapDialog>
     </div>

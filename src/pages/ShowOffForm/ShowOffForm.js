@@ -102,9 +102,8 @@ export default function AboutForm(props) {
   return (
     <motion.div
       initial={{ opacity: 0, scale: 1, width: "75%" }}
-      animate={{ opacity: 1, scale: 1,  }}
+      animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
-      
     >
       <Box
         component="form"
@@ -187,7 +186,7 @@ export default function AboutForm(props) {
                 <Button
                   type="button"
                   variant="outlined"
-                  sx={{maxHeight: "3.5rem"}}
+                  sx={{ maxHeight: "3.5rem" }}
                   className="cover-letter"
                 >
                   Cover Letter
@@ -198,15 +197,15 @@ export default function AboutForm(props) {
                   variant="contained"
                   className="save-n-next"
                   onClick={(e) => setActiveStep(0)}
-                  sx={{maxHeight: "3.5rem"}}
-                  >
+                  sx={{ maxHeight: "3.5rem" }}
+                >
                   Previous
                 </Button>
                 <Button
                   variant="contained"
                   className="save-n-next"
                   type="submit"
-                  sx={{maxHeight: "3.5rem"}}
+                  sx={{ maxHeight: "3.5rem" }}
                 >
                   Next
                 </Button>

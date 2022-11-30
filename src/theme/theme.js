@@ -18,6 +18,6 @@ export const darkTheme = createTheme({
     fontFamily: "Poppins",
   },
   dividerColor: {
-    backgroundColor: '#003f58',
+    backgroundColor: "#003f58",
   },
 });

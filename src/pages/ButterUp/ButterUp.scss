@@ -1,38 +1,38 @@
-.butterUp{
-    width: 100%;
-    outline: none;
-    resize: none;
-    &:focus{
-        border-color: #00a1e1 !important;
-    }
+.butterUp {
+  width: 100%;
+  outline: none;
+  resize: none;
+  &:focus {
+    border-color: #00a1e1 !important;
+  }
 }
-.butterUpError{
-    border-color: #ff0000 !important;
+.butterUpError {
+  border-color: #ff0000 !important;
 }
-label.butterUpError{
-    color: #ff0000 !important;
+label.butterUpError {
+  color: #ff0000 !important;
 }
 
 @media (max-width: 700px) {
-    .field {
-      flex-direction: column;
-      margin-top: 20px;
-  
-      .inp {
-        width: 100%;
-      }
-    }
-  
-    .branchBox {
+  .field {
+    flex-direction: column;
+    margin-top: 20px;
+
+    .inp {
       width: 100%;
     }
-  
-    .buttonDiv {
-      justify-content: center;
-    }
-  
-    .save-n-next {
-      padding: 10px 40px !important;
-      font-size: 1rem !important;
-    }
   }
+
+  .branchBox {
+    width: 100%;
+  }
+
+  .buttonDiv {
+    justify-content: center;
+  }
+
+  .save-n-next {
+    padding: 10px 40px !important;
+    font-size: 1rem !important;
+  }
+}

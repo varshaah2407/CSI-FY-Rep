@@ -142,7 +142,12 @@ export default function ButterUp(props) {
               >
                 Previous
               </Button>
-              <Button variant="contained" className="save-n-next" type="submit" disabled={submitting}>
+              <Button
+                variant="contained"
+                className="save-n-next"
+                type="submit"
+                disabled={submitting}
+              >
                 Finish
               </Button>
             </Box>

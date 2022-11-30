@@ -128,7 +128,7 @@ export default function StepFormBox(props) {
           <h1>CSI</h1>
           <h2>RECRUITMENT</h2>
         </div>
-        <h3 >First Year Representatives 2022-2023</h3>
+        <h3>First Year Representatives 2022-2023</h3>
       </div>
       <Stack
         sx={{ width: "100%", alignItems: "center", justifyContent: "center" }}
